@@ -1,0 +1,140 @@
+<html lang="fr">
+<head>
+    <style>
+.frame {
+    width: 400px;
+    height: 400px;
+    /* The way to put a div in the center of a web page */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    /* ------------------------------------------------ */
+    border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+    background: #fff;
+    color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    /* I use linear-gradient for the background of the big square (frame 400x400) */
+	background:  linear-gradient(to right top, rgb(67, 56, 159) 0%, rgb(78, 198, 202) 100%);
+    /* ------------------------------------------------ */
+}
+
+
+/* Then I make the div center in the middle of the div frame. The place when I gona write "100 days challenge" */
+.center {
+    /* border: 2px solid black; <- use it to see the position of this div*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* the div number its only for the number "100" */
+.number {
+    /* border: 2px solid red; <- use it to see the position of this div*/
+	position: relative;
+	width: 200px;
+	height: 100px;
+}
+
+/* a div for the little part of the number one */
+.one-one {
+	position: absolute;
+	top: -1%;
+	left: 0;
+	border: 1px solid white;
+	width: 15px;
+	height: 38px;
+	transform: rotate(50deg);
+	border-radius: 3px;
+	background: white;
+}
+/* the div for number one */
+.one-two {
+	position: absolute;
+	top: 0;
+	left: 8%;
+	border: 1px solid white;
+	border-radius: 3px;
+	width: 16px;
+	height: 100px;
+	background: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+/* the div for the first zero */
+.zero-one {
+	position: absolute;
+	top: 0;
+	left: 12%;
+	border: 25px solid white;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+/* the div for the second zero */
+.zero-two {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	border: 25px solid white;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+/* the big text "DAYS" */
+.big {
+	position: relative;
+	display: block;
+	text-transform: uppercase;
+	font-size: 75px;
+	font-weight: 800;
+	margin-top: -8px;
+	color: white;
+	text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.3);
+}
+/* finaly the small text "challenge" */
+.small-css {
+	font-size: 20px;
+	margin-top: -15px;
+	font-weight: 600;
+	color: rgb(255, 255, 255);
+}
+.small-challenge {
+	font-size: 20px;
+	margin-top: -22px;
+	font-weight: 600;
+	text-align: right;
+	color: rgb(255, 255, 255);
+}
+
+    </style>
+</head>
+<body>
+    <div class="frame"> <!-- 400x400 div frame -->
+        <div class="center"> <!-- text div center "100 days challenge" -->
+            <div class="number"> <!-- number div "100" -->
+                <div class="one-one"></div> <!-- the little part of the number one -->
+                <div class="one-two"></div> <!-- the number one -->
+                <div class="zero-one"></div> <!-- the first zero -->
+                <div class="zero-two"></div> <!-- the second zero -->
+            </div>
+            <div class="big"> <!-- the bif text "days" -->
+                days
+            </div>
+            <div class="small-css"> <!-- the small text "css" -->
+                CSS
+            </div>
+			<div class="small-challenge"> <!-- the small text "challenge" -->
+                CHALLENGE
+            </div>
+        </div>
+    </div>
+</body>
+</html>
