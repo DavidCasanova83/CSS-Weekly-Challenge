@@ -1,0 +1,63 @@
+.frame {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -200px;
+}
+.square {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  background: #f7ec7d;
+  background: linear-gradient(90deg, #f7ec7d 70%, #e38f66 0%);
+}
+.corner-cut {
+  width: 40px;
+  height: 40px;
+  background: #62306d;
+  border-radius: 50%;
+}
+.corner-cut01 {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+.corner-cut02 {
+  position: absolute;
+  top: -20px;
+  left: 180px;
+}
+.corner-cut03 {
+  position: absolute;
+  top: 80px;
+  left: 180px;
+}
+.corner-cut04 {
+  position: absolute;
+  top: 80px;
+  left: -20px;
+}
+.middle-cut {
+  width: 20px;
+  height: 20px;
+  background: #62306d;
+  border-radius: 50%;
+}
+.middle-cuttop {
+  position: absolute;
+  top: -10px;
+  left: 130px;
+}
+.middle-cutbot {
+  position: absolute;
+  top: 90px;
+  left: 130px;
+}
+body {
+  background-color: #62306d;
+}
