@@ -1,0 +1,48 @@
+.frame {
+  width: 250px;
+  height: 220px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -110px;
+  margin-left: -125px;
+}
+.shadow-right {
+  background: #e38f66;
+  width: 100px;
+  height: 140px;
+  position: absolute;
+  top: 70px;
+  left: 145px;
+  border-radius: 75px 75px 75px 75px / 75px 75px 75px 75px;
+}
+.yellow-right {
+  background: #f7ec7d;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+}
+.shadow-left {
+  background: #aa445f;
+  width: 100px;
+  height: 140px;
+  position: absolute;
+  top: 10px;
+  left: 7px;
+  border-radius: 75px 75px 75px 75px / 75px 75px 75px 75px;
+}
+.yellow-left {
+  background: #f7ec7d;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+}
+
+body {
+  background-color: #62306d;
+}
