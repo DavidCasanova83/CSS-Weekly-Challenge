@@ -1,0 +1,46 @@
+.frame {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -150px;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  background: #84271c;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  border-radius: 50%;
+  border: solid 25px #191210;
+  outline: 20px solid #eca03d;
+}
+.left {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: -25px;
+  left: -125px;
+  border-radius: 50%;
+  border: solid 20px #eca03d;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  transform: rotate(45deg);
+}
+.right {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: -161px;
+  left: 121px;
+  border-radius: 50%;
+  border: solid 20px #eca03d;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+}
+body {
+  background-color: #191210;
+}
