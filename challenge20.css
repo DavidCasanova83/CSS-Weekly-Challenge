@@ -1,0 +1,103 @@
+.frame {
+  width: 330px;
+  height: 230px;
+  border-radius: 3%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -115px;
+  margin-left: -165px;
+}
+
+.mount1 {
+  position: absolute;
+  display: inline-block;
+  border-right: 150px solid transparent;
+  border-bottom: 150px solid #298dcb;
+  border-left: 150px solid transparent;
+  top: 80px;
+  left: 0px;
+}
+
+.snow-mount {
+  position: absolute;
+  display: inline-block;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid white;
+  border-left: 50px solid transparent;
+  left: -50px;
+}
+
+.hill {
+  width: 150px;
+  height: 70px;
+  background: #1478b2;
+  border-radius: 100px 100px 0 0;
+  position: absolute;
+  top: 160px;
+  left: 180px;
+}
+.snow {
+  width: 80px;
+  height: 80px;
+  border: solid 20px #060f55;
+  border-radius: 50%;
+  position: absolute;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(-225deg);
+  top: 105px;
+  left: 105px;
+}
+
+.flake {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+.flake:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.flake:after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: -10px;
+}
+.one {
+  top: 30px;
+  left: 170px;
+  zoom: 150%;
+}
+.two {
+  top: 20px;
+  left: 150px;
+}
+.three {
+  top: 45px;
+  left: 70px;
+  zoom: 140%;
+}
+.four {
+  top: 75px;
+  left: 30px;
+  zoom: 130%;
+}
+body {
+  background-color: #b4e1f6;
+}
