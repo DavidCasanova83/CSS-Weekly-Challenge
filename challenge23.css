@@ -1,0 +1,9 @@
+html { /* U can use body if you want */
+    height: 100%; /* use: 100/200 or 300px to select specifique part of background setting */
+    background: linear-gradient(
+    #f7ec7d 50px,
+    #e38f66 50px 100px,
+    #aa445f 100px 200px,
+    #62306d 200px 300px
+  );
+}
