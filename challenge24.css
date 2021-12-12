@@ -1,0 +1,43 @@
+.frame {
+  width: 200px;
+  height: 200px;
+  background: #1a4341;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: -100px;
+  display: flex;
+}
+.one {
+  width: 100px;
+  height: 100px;
+  background: #f3ac3c;
+  border-radius: 0px 0px 100px 0px;
+}
+.two {
+  width: 100px;
+  height: 100px;
+  background: #f3ac3c;
+  border-radius: 0 0 0 100px;
+}
+.three {
+  width: 100px;
+  height: 100px;
+  background: #f3ac3c;
+  border-radius: 100px 0 0 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.four {
+  width: 100px;
+  height: 100px;
+  background: #f3ac3c;
+  border-radius: 0 100px 0 0;
+  position: absolute;
+  top: 50%;
+}
+body {
+  background: #f3ac3c;
+}
