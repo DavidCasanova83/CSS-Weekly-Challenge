@@ -1,0 +1,48 @@
+.frame {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+.circle {
+  width: 150px;
+  height: 150px;
+  background: conic-gradient(
+    transparent 90deg,
+    transparent 90deg 180deg,
+    #998235 180deg 270deg,
+    #998235 270deg
+  );
+  border-radius: 50%;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+.piece {
+  width: 200px;
+  height: 200px;
+  background: #f3ac3c;
+  border-radius: 50%;
+  background: conic-gradient(
+    #f3ac3c 90deg,
+    transparent 90deg 180deg,
+    transparent 180deg 270deg,
+    transparent 270deg
+  );
+}
+.circle::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: #0b2429;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+body {
+  background: #1a4341;
+}
