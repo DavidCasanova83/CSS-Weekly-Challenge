@@ -1,0 +1,108 @@
+.frame {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  margin-left: -100px;
+  margin-top: -100px;
+  transform: rotate(-45deg);
+}
+
+.tube {
+  width: 50px;
+  height: 125px;
+  background: white;
+  border-radius: 10px 10px 0 0;
+  box-shadow: inset 13px 11px 12px 7px rgba(0, 0, 0, 0.64);
+}
+.blood_tube {
+  width: 50px;
+  height: 75px;
+  background: red;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px 10px 0 0;
+  box-shadow: inset 13px 11px 12px 7px rgba(0, 0, 0, 0.64);
+}
+
+.pike {
+  position: absolute;
+  display: inline-block;
+  border-right: 5px solid transparent;
+  border-bottom: 100px solid #5d0000;
+  border-left: 5px solid transparent;
+  top: -100px;
+  left: 20px;
+}
+
+.rect01 {
+  width: 75px;
+  height: 15px;
+  background: #ababab;
+  position: absolute;
+  top: 125px;
+  left: -12px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: inset 3px -1px 2px 1px white;
+}
+.rect01::after {
+  content: "";
+  width: 15px;
+  height: 75px;
+  background: #ababab;
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  box-shadow: inset 3px -1px 2px 1px white;
+}
+.rect01::before {
+  content: "";
+  width: 35px;
+  height: 10px;
+  background: #ababab;
+  position: absolute;
+  top: 90px;
+  left: 20px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: inset 3px -1px 2px 1px white;
+}
+
+.wave {
+  width: 10px;
+  height: 5px;
+  border: solid 5px red;
+  opacity: 0.7;
+  border-radius: 200px 200px 0 0;
+  position: absolute;
+  top: 65px;
+  left: 15px;
+  border-bottom: transparent;
+}
+.wave::before {
+  content: "";
+  width: 10px;
+  height: 5px;
+  border: solid 5px #5d0000;
+  border-radius: 0px 0px 200px 200px;
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  border-top: transparent;
+}
+.wave::after {
+  content: "";
+  width: 10px;
+  height: 5px;
+  border: solid 5px red;
+  border-radius: 0px 0px 200px 200px;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  border-top: transparent;
+}
+
+body {
+  background: #a2d4d6;
+}
