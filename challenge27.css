@@ -1,0 +1,42 @@
+.frame {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -125px;
+  margin-top: -125px;
+}
+.tree {
+  position: absolute;
+  display: inline-block;
+  border-right: 125px solid transparent;
+  border-bottom: 100px solid #00a79d;
+  border-left: 125px solid transparent;
+  top: 125px;
+  left: 0px;
+}
+.tree::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  border-right: 125px solid transparent;
+  border-bottom: 100px solid #ffeecf;
+  border-left: 125px solid transparent;
+  top: -100px;
+  left: -125px;
+}
+.tree::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  border-right: 125px solid transparent;
+  border-bottom: 100px solid #f5c181;
+  border-left: 125px solid transparent;
+  top: -50px;
+  left: -125px;
+}
+
+body {
+  background: #007065;
+}
