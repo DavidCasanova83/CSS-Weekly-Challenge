@@ -1,0 +1,26 @@
+.ice {
+  width: 100px;
+  height: 150px;
+  background: #fff1c1;
+  border-radius: 50% 50% 20px 20px / 50px 50px 20px 20px;
+  position: absolute;
+  top: 125px;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -75px;
+}
+.stick {
+  width: 30px;
+  height: 50px;
+  background: #fe5f55;
+  position: absolute;
+  top: 230px;
+  left: 50%;
+  border-radius: 0% 0% 10px 10px;
+  margin-left: -15px;
+  margin-top: -30px;
+  box-shadow: inset 0px 11px 0px -1px #a64942;
+}
+body {
+  background: #293462;
+}
