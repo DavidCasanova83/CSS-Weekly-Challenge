@@ -1,0 +1,32 @@
+.frame {
+  width: 300px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin-top: -100px;
+  margin-left: -150px;
+}
+.circle {
+  width: 200px;
+  height: 100px;
+  background: white;
+  border-radius: 200px 200px 0 0;
+}
+.left {
+  background: #f7ec7d;
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 50px;
+  left: -25px;
+}
+.right {
+  background: #e38f66;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 50px;
+  left: 125px;
+}
+body {
+  background: #aa445f;
+}
