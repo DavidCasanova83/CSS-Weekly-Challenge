@@ -1,0 +1,30 @@
+* {
+  background: #6592cf;
+  position: fixed;
+}
+.stick,
+.circle {
+  background: #6592cf;
+  height: 100px;
+  left: 150px;
+}
+.big,
+.stick {
+  top: 50px;
+  top: 50px;
+}
+.big {
+  width: 200px;
+  height: 200px;
+  background: #243d83;
+  border-radius: 0 50% 50% 50%;
+  left: 100px;
+}
+.circle {
+  width: 100px;
+  border-radius: 50%;
+  top: 100px;
+}
+.stick {
+  width: 50px;
+}
