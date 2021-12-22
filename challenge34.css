@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  background: #293462;
+}
+
+.white {
+  background: #fff1c1;
+  width: 200px;
+  height: 200px;
+}
+
+.right {
+  background: linear-gradient(#fe5f55 75%, #a64942 75%);
+  width: 100px;
+  height: 200px;
+  position: fixed;
+  top: 0;
+  left: 200px;
+}
+
+.left {
+  background: linear-gradient(90deg, #fe5f55 75%, #a64942 75%);
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+}

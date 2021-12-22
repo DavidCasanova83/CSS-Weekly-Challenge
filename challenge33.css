@@ -1,0 +1,40 @@
+.frame {
+  width: 250px;
+  height: 250px;
+  background: #243d83;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -125px;
+  margin-top: -125px;
+}
+
+.frame::after {
+  content: "";
+  width: 75px;
+  height: 75px;
+  background: #243d83;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -37.5px;
+  margin-top: -37.5px;
+  transform: rotate(30deg);
+}
+
+.frame::before {
+  content: "";
+  width: 150px;
+  height: 150px;
+  background: #6592cf;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -75px;
+  margin-top: -75px;
+  transform: rotate(15deg);
+}
+
+body {
+  background: #6592cf;
+}

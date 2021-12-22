@@ -1,0 +1,82 @@
+.frame {
+  position: absolute;
+  width: 100px;
+  height: 190px;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -95px;
+}
+
+.hat {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(#0e1f2b 15px, #fff 15px 25px, #0e1f2b 25px);
+  left: 30px;
+}
+
+.line {
+  position: absolute;
+  width: 60px;
+  height: 5px;
+  background: #0e1f2b;
+  top: 40px;
+  left: 20px;
+}
+
+.head {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 50%;
+  top: 40px;
+  left: 20px;
+}
+
+.belly {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border-radius: 50%;
+  top: 90px;
+}
+
+.scarf {
+  position: absolute;
+  width: 60px;
+  height: 10px;
+  background: #ffa63f;
+  border: solid #ac474b 4px;
+  border-radius: 50px 50px 50px 50px;
+  top: 84px;
+  left: 16px;
+}
+
+.redline {
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background: #ac474b;
+  top: 98px;
+}
+
+.eye {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #0e1f2b;
+  border-radius: 50%;
+  top: 58px;
+  left: 35px;
+}
+
+.l {
+  left: 55px;
+}
+
+body {
+  background: #ac474b;
+}
