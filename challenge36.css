@@ -1,0 +1,70 @@
+* {
+  background: #293462;
+  position: fixed;
+}
+
+.rcircle {
+  background: #fe5f55;
+  width: 50px;
+  height: 75px;
+  border-radius: 0 58px 50px 0;
+  top: 80px;
+  left: 150px;
+}
+
+.rcircle::before {
+  content: " ";
+  background: #fe5f55;
+  width: 50px;
+  height: 75px;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  border-radius: 58px 0 0 50px;
+}
+
+.square {
+  background: #fe5f55;
+  width: 100px;
+  height: 96px;
+  top: 120px;
+  left: 150px;
+}
+
+.bcircle {
+  background: #293462;
+  width: 50px;
+  height: 75px;
+  border-radius: 0 58px 50px 0;
+  top: 180px;
+  left: 150px;
+}
+
+.bcircle::before {
+  content: " ";
+  position: absolute;
+  background: #293462;
+  width: 50px;
+  height: 75px;
+  border-radius: 58px 0 0 50px;
+  left: 50px;
+}
+
+.eyes {
+  top: 140px;
+  left: 165px;
+}
+
+.eyes::after {
+  content: "";
+  position: absolute;
+  left: 40px;
+}
+
+.eyes,
+.eyes::after {
+  background: #293462;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
