@@ -1,0 +1,44 @@
+* {
+  background: #ac474b;
+  position: fixed;
+  flex-direction: row;
+}
+
+.a,
+.b,
+.c,
+.d {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  top: 110px;
+  left: 130px;
+}
+
+.b {
+  left: 210px;
+}
+
+.c {
+  top: 190px;
+}
+
+.d {
+  top: 190px;
+  left: 210px;
+}
+
+.e,
+.f {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px 50px 50px 0;
+  border: solid 10px #fff;
+  top: 50px;
+  left: 195px;
+}
+
+.f {
+  border-radius: 50px 50px 0 50px;
+  left: 165px;
+}
