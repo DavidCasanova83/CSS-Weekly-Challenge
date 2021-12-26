@@ -1,0 +1,44 @@
+* {
+  background: #14313e;
+  position: absolute;
+}
+
+body {
+  height: 100%;
+}
+
+.a {
+  width: 80px;
+  height: 30px;
+  background: #f3695a;
+  border-radius: 50%;
+  top: 110px;
+  left: 160px;
+}
+
+.b {
+  width: 60px;
+  height: 30px;
+  background: #14313e;
+  border-radius: 50%;
+  top: 100px;
+  left: 170px;
+}
+
+.c {
+  width: 30px;
+  height: 50px;
+  background: #f3ac3c;
+  border-radius: 50px 0 50px 0;
+  top: 60px;
+  left: 200px;
+}
+
+.d {
+  width: 80px;
+  height: 117px;
+  background: #ba3e46;
+  border-radius: 0 0 50px 50px / 0 0 19px 19px;
+  top: 123px;
+  left: 160px;
+}
