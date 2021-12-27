@@ -1,0 +1,48 @@
+* {
+  position: absolute;
+  background: #293462;
+}
+
+a {
+  width: 200px;
+  height: 200px;
+  background: #fe5f55;
+  border-radius: 100px 100px 50px 50px;
+  top: 42px;
+  left: 92px;
+  overflow: hidden;
+}
+
+.eye {
+  width: 60px;
+  height: 60px;
+  background: #fff1c1;
+  border-radius: 50%;
+  top: 90px;
+  left: 20px;
+}
+
+.l {
+  left: 120px;
+}
+
+.hair {
+  width: 100px;
+  height: 100px;
+  background: #fff1c1;
+  border-radius: 50%;
+  top: -50px;
+}
+
+.l2 {
+  left: 100px;
+}
+
+.mouth {
+  width: 40px;
+  height: 10px;
+  background: #fff1c1;
+  border-radius: 50px 50px 50px 50px;
+  top: 170px;
+  left: 80px;
+}
