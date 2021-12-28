@@ -1,0 +1,65 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background: #1a4341;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dot {
+  width: 100px;
+  height: 100px;
+  background-color: #f3ac3c;
+  border-radius: 50%;
+  position: relative;
+}
+.circle {
+  border-radius: 50%;
+  background-color: #998235;
+}
+
+.one {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  top: -10px;
+  left: 20px;
+}
+.two {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 5px;
+  left: 40px;
+}
+.three {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  top: -60px;
+  left: 70px;
+}
+.stick {
+  border-radius: 50px;
+  background-color: #f3ac3c;
+  position: relative;
+  width: 180px;
+  height: 10px;
+}
+.left {
+  transform: rotate(30deg);
+  top: 50px;
+  left: -31px;
+}
+.middle {
+  transform: rotate(90deg);
+  top: 25px;
+  left: -40px;
+}
+.right {
+  transform: rotate(150deg);
+  top: 20px;
+  left: -31px;
+}
