@@ -1,0 +1,33 @@
+* {
+  background: #293462;
+}
+.frame {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #fff1c1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+  overflow: hidden;
+}
+.square {
+  width: 150px;
+  height: 200px;
+  position: absolute;
+  background: #fe5f55;
+  top: 83px;
+  left: 49px;
+  transform: rotate(45deg);
+}
+.square::after {
+  content: "";
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  background: #fe5f55;
+  top: 129px;
+  left: -30px;
+}
