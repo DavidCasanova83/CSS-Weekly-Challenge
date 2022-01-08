@@ -1,0 +1,30 @@
+* {
+  background: #293462;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+  width: 200px;
+  height: 200px;
+}
+.box {
+  position: absolute;
+  top: 40px;
+  background: #fe5f55;
+  width: 200px;
+  height: 100px;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 20px 0px 0px #a64942;
+}
+.hole {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background: #a64942;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px 20px 20px 20px;
+}
