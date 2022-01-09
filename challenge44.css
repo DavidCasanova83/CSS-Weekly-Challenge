@@ -1,0 +1,46 @@
+* {
+  background-color: #6592cf;
+}
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+.square {
+  background: #243d83;
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  left: 25px;
+  border-radius: 0 0 10px 10px;
+}
+.triangl {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 100px 100px 100px;
+  border-color: transparent transparent #243d83 transparent;
+}
+.door {
+  position: absolute;
+  background: #eeb850;
+  width: 50px;
+  height: 50px;
+  top: 50px;
+  left: 50px;
+  border-radius: 10px 10px 0 0;
+}
+.roof {
+  position: absolute;
+  background: #eeb850;
+  width: 100px;
+  height: 10px;
+  top: -5px;
+  left: 25px;
+  border-radius: 5px;
+}
