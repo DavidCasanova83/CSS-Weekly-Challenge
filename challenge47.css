@@ -1,0 +1,60 @@
+* {
+  background: #6592cf;
+  position: absolute;
+}
+.frame {
+  width: 350px;
+  height: 100px;
+  top: 90;
+  left: 20;
+}
+.tree {
+  width: 40px;
+  height: 40px;
+  background: #eeb850;
+  border-radius: 50%;
+  top: 22px;
+  left: 3px;
+}
+.two {
+  width: 60px;
+  height: 60px;
+  left: 37px;
+  top: 2px;
+}
+.three {
+  left: 92px;
+}
+.blue {
+  background: #243d83;
+  width: 10px;
+  height: 50px;
+  top: 42px;
+  left: 17px;
+}
+.ball {
+  background: #243d83;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: -10px;
+  left: -5px;
+}
+.b {
+  left: 62px;
+}
+.c {
+  left: 107px;
+}
+.d {
+  left: 182px;
+}
+.e {
+  left: 227px;
+}
+.f {
+  left: 272px;
+}
+.g {
+  left: 317px;
+}
