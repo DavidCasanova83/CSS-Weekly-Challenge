@@ -1,0 +1,40 @@
+body {
+  background: #19191a;
+}
+.frame {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 50%;
+  left: 50%;
+  margin-top: -75px;
+  margin-left: -75px;
+}
+
+.circle {
+  background: #4f77ff;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: -25px;
+  overflow: hidden;
+}
+
+:before {
+  content: "";
+  position: absolute;
+  width: 75px;
+  height: 130px;
+  right: 50%;
+}
+
+.circle:before {
+  background: #9ad5ff;
+  top: 50%;
+}
+
+body::before {
+  background: #f9e492;
+  top: 48%;
+}
