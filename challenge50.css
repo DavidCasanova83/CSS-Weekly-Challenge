@@ -1,0 +1,44 @@
+body {
+  background-color: #191919;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame {
+  position:absolute;
+  width: 150px;
+  height: 200px;
+  background-color: #f2ad43;
+  border-radius: 75px 75px 20px 20px;
+  overflow: hidden;
+  top:50%;
+  left:50%;
+  margin-top:-75px;
+  margin-left:-100px;
+}
+.sun {
+  width: 60px;
+  height: 60px;
+  background-color: #fff58f;
+  border-radius: 50%;
+  position: absolute;
+  top: 75px;
+  left: 45px;
+}
+.mount {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.one {
+  background-color: #e08027;
+  position: relative;
+  top: 100px;
+  left: -100px;
+}
+.two {
+  background-color: #824b20;
+  position: relative;
+  top: -100px;
+  left: 50px;
+}
