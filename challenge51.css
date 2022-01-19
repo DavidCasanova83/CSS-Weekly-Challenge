@@ -1,0 +1,66 @@
+* {
+  background: #0b9ead;
+}
+.frame {
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -150px;
+  border: solid 10px white;
+}
+.bottom {
+  position: absolute;
+  background: #eb8a1f;
+  width: 200px;
+  height: 200px;
+  bottom: 0px;
+  left: 50px;
+  border-radius: 100px 100px 0 0;
+}
+.middle {
+  position: absolute;
+  background: #81847e;
+  width: 75px;
+  height: 200px;
+  top: 30px;
+  left: 110px;
+  border-radius: 20px 20px 0 0;
+}
+.top {
+  position: absolute;
+  background: #bbbebb;
+  width: 100px;
+  height: 50px;
+  top: 0px;
+  left: 97px;
+  border-radius: 20px 20px 20px 20px;
+}
+.pastis {
+  position: absolute;
+  background: #24345a;
+  width: 150px;
+  height: 75px;
+  top: 100px;
+  left: 25px;
+  border-radius: 20px 20px 20px 20px;
+}
+p {
+  background: transparent;
+  color: white;
+  position: absolute;
+  top: -40px;
+  left: 50px;
+  font-size: 50px;
+}
+.reddot {
+  position: absolute;
+  background: red;
+  width: 75px;
+  height: 75px;
+  top: 80px;
+  left: 40px;
+  border-radius: 50%;
+}
