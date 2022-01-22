@@ -1,0 +1,65 @@
+* {
+  background: #191919;
+}
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -125px;
+  width: 250px;
+  height: 100px;
+  background: #f2ad43;
+}
+.circle {
+  position: absolute;
+  background: #191919;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  top: 60px;
+  left: -35px;
+}
+.left {
+  left: 85px;
+}
+.bubble {
+  position: absolute;
+  background: #191919;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  left: -50px;
+}
+.gauche {
+  left: 200px;
+}
+.head {
+  position: absolute;
+  background: #191919;
+  width: 80px;
+  height: 100px;
+  top: -70px;
+  left: 85px;
+  border-radius: 0 0 10px 10px;
+}
+.face {
+  position: absolute;
+  background: #f2ad43;
+  width: 20px;
+  height: 20px;
+  top: 80px;
+  left: 30px;
+}
+.chick {
+  position: absolute;
+  background: #f2ad43;
+  width: 10px;
+  height: 10px;
+  top: 75px;
+  left: 25px;
+  border-radius: 50%;
+}
+.two {
+  left: 45px;
+}
