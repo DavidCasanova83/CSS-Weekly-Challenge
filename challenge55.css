@@ -1,0 +1,39 @@
+* {
+  background: #191919;
+}
+.frame {
+  width: 150px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -75px;
+}
+.top {
+  background: #f2ad43;
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  top: 16px;
+  left: 50px;
+  border-radius: 50px;
+}
+.bottom {
+  background: #824b20;
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  top: 85px;
+  left: 50px;
+  border-radius: 50px;
+}
+.middle {
+  background: #e08027;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 40px;
+  left: 15px;
+  border-radius: 100px 100px 16px 16px;
+}
