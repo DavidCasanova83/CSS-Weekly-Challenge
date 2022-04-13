@@ -1,0 +1,106 @@
+body{
+  background:#000000;
+}
+.container {
+  position:absolute;
+  width: 250px;
+  height: 200px;
+  top:50%;
+  left:50%;
+  margin-top:-100px;
+  margin-left:-125px;
+}
+.bones *{
+  background: #FFFFFF;
+  width: 20px;
+  height: 23px;
+}
+.bones .one{
+  position:relative;
+  top:50px;
+  left:37px;
+  transform: rotate(-45deg);
+}
+.circle-left{
+  position:relative;
+  top:-15px;
+  left:-12px;
+  background: #FFFFFF;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.circle-right{
+  position:relative;
+  top:-40px;
+  left:7px;
+  background:#FFFFFF;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+  .bones .two{
+  position:relative;
+  top:27px;
+  left:194px;
+  transform: rotate(45deg);
+}
+  .bones .three{
+  position:relative;
+  top:100px;
+  left:194px;
+  transform: rotate(135deg);
+}
+.bones .four{
+  position:relative;
+  top:78px;
+  left:36px;
+  transform: rotate(-135deg);
+}
+.head{
+  position:absolute;
+  background:#FFFFFF;
+  width:150px;
+  height:100px;
+  border-radius: 50px;
+  top:60px;
+  left:50px;
+}
+.eye{
+  background:#000000;
+  width:40px;
+  height:50px;
+  border-radius: 25px / 30px;
+}
+.left{
+  position:absolute;
+  transform:rotate(60deg);
+  top:25px;
+  left:25px;
+}
+ .right{
+  position:absolute;
+  transform:rotate(-60deg);
+  top:25px;
+  left:85px;
+}
+.dent{
+  background: #FFFFFF;
+  width: 15px;
+  height: 20px;
+}
+.un{
+  position:relative;
+  top:78px;
+  left:98px;
+}
+.deux{
+  position:relative;
+  top:58px;
+  left:118px;
+}
+  .trois{
+  position:relative;
+  top:38px;
+  left:138px;
+}
